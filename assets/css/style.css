@@ -14,10 +14,19 @@ body {
     font-size: 90px;
     text-align: center;
 }
-
 /*Game area*/
 .flex-container {
-
+    color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+
+/*How to play section*/
+.how-to-play {
+    color: white;
+    font-size: 30px;
+    text-align: center;
 }
