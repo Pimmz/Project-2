@@ -19,7 +19,7 @@ body {
 .flip-card {
     display: inline-block;
     width: 150px;
-    height: 90px;
+    height: 100px;
     padding: 2px ;
     perspective: 600px;
     
@@ -50,17 +50,74 @@ body {
   }
   
   .card__face--front {
-    background: crimson;
-    font-size: 40px;
-  }
-  
-  .card__face--back {
     background: slateblue;
-    transform: rotateY(180deg);
     
-
   }
   
+  .card__face--back1 {
+    background-image: url('../images/albert-einstein.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    transform: rotateY(180deg);
+  }
+  .card__face--back2 {
+    background-image: url('../images/albert-einstein.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    transform: rotateY(180deg);
+  }
+  .card__face--back3 {
+    background-image: url('../images/albert-einstein.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    transform: rotateY(180deg);
+  }
+  .card__face--back4 {
+    background-image: url('../images/will-ferrell.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    transform: rotateY(180deg);
+  }
+  .card__face--back5 {
+    background-image: url('../images/dalai-lama.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    transform: rotateY(180deg);
+  }
+  .card__face--back6 {
+    background-image: url('../images/albert-einstein.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    transform: rotateY(180deg);
+  }
+  .card__face--back7 {
+    background-image: url('../images/albert-einstein.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    transform: rotateY(180deg);
+  }
+  .card__face--back8 {
+    background-image: url('../images/billy-conolly.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    transform: rotateY(180deg);
+  }
 /*How to play section*/
 .how-to-play {
     color: white;
