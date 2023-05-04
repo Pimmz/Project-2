@@ -16,11 +16,17 @@ body {
 }
 /*Game area*/
 .flex-container {
-    color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+.flex-child {
+    flex: 1;
+    border: 2px solid white;
+
+}
+.flex-child{
+    margin-right: 20px;
 }
 
 
