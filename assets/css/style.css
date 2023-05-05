@@ -12,9 +12,24 @@ body {
 /*Heading of Game*/
 .heading {
     color: white;
-    font-size: 45px;
-    
+    font-size: 45px; 
 }
+
+/*Timer area*/
+#myProgress {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    background-color: #ddd;
+  }
+  
+  #myBar {
+    background-color: red;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+  }
+
 /*Game area*/
 .flip-card {
     display: inline-block;
