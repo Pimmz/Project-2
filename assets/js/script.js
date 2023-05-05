@@ -1,19 +1,8 @@
 //Timer area
-function card() {
-    const element = document.getElementById("myBar");
-    let width = 0;
-    const id = setInterval(frame, 600);
-    function frame() {
-        if (width == 100) {
-            clearInterval(id);
-        } else {
-            width++;
-            element.style.width = width + '%';
-        }
-    }
-}
+
 
 //allows the cards to match correctly
+
 const cards = document.querySelectorAll(".card");
 
 let hasFlippedCard = false;
@@ -75,24 +64,12 @@ var cards2 = document.querySelectorAll('.card');
 
 //Timer area
 
-function cards() {
-    const element = document.getElementById("myBar");
-    let width = 0;
-    const id = setInterval(frame, 600);
-    function frame() {
-        if (width == 100) {
-            clearInterval(id);
-        } else {
-            width++;
-            element.style.width = width + '%';
-        }
-    }
-}
+
 
 
 //Game area for cards so they flip over
 
-var card = document.querySelectorAll('.card');
+const card = document.querySelectorAll('.card');
 
 [...cards].forEach((card) => {
     card.addEventListener('click', function () {

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 
 /*main background color and font*/
+
 body {
     background-image: linear-gradient(to right top, #845ec2, #b45cb6, #d65fa5, #ed6993, #fa7a82, #ff8977, #ff9a6e, #ffac69, #ffbe66, #ffd166, #ffe469, #f9f871);
     background-repeat: no-repeat;
@@ -17,24 +18,6 @@ body {
 }
 
 /*Timer area*/
-
-.timer {
-    color: white;
-}
-#myProgress {
-    width: 100%;
-    height: 20px;
-    background-color: #ddd;
-    
-}
-  
-#myBar {
-    background-color: #ff370abd;
-    width: 10px;
-    height: 20px;
-    
-}
-
 
 
 /*Game area*/
