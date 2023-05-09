@@ -119,19 +119,26 @@ const card = document.querySelectorAll('.card');
 
 
 //Reset button area
+
 const resetButton = document.getElementById("reset-btn");
 
 resetButton.addEventListener("click", resetGame);
 
 function resetGame() {
-  
+    resetTimer();
+    cards.forEach(card => {
+        card.classList.remove("is-flipped");
+        card.addEventListener('click', flipCard);
+    });
+    resetBoard();
 }
+
 
 //How to play button
 
 function test() {
-    alert("HOW TO PLAY! ,1.Click any card to start, 2. Match the famous quote to the famous person, 3. Complete all four pairs to win. ");
+    alert("HOW TO PLAY! 1.Click any card to start, 2. Match the famous quote to the famous person, 3. Complete all four pairs to win. ");
   }
   
-  document.getElementById('buttonID').onclick = test;
+  document.getElementById('btnID').onclick = test;
   
