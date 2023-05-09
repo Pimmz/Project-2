@@ -87,6 +87,7 @@ body {
     background-position: center;
     background-color: black;
     transform: rotateY(180deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .card__face--back2 {
     background-image: url('../images/dalai-quote.jpg');
@@ -95,6 +96,7 @@ body {
     background-position: center;
     background-color: black;
     transform: rotateY(180deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .card__face--back3 {
     background-image: url('../images/billy-quote.png');
@@ -103,6 +105,7 @@ body {
     background-position: center;
     background-color: black;
     transform: rotateY(180deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .card__face--back4 {
     background-image: url('../images/will-ferrell.jpg');
@@ -111,6 +114,7 @@ body {
     background-position: center;
     background-color: black;
     transform: rotateY(180deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .card__face--back5 {
     background-image: url('../images/dalai-lama.jpg');
@@ -119,6 +123,7 @@ body {
     background-position: center;
     background-color: black;
     transform: rotateY(180deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .card__face--back6 {
     background-image: url('../images/albert-quote.jpg');
@@ -127,6 +132,7 @@ body {
     background-position: center;
     background-color: black;
     transform: rotateY(180deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .card__face--back7 {
     background-image: url('../images/will-quote.jpg');
@@ -135,6 +141,7 @@ body {
     background-position: center;
     background-color: black;
     transform: rotateY(180deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .card__face--back8 {
     background-image: url('../images/billy-conolly.jpg');
@@ -143,6 +150,7 @@ body {
     background-position: center;
     background-color: black;
     transform: rotateY(180deg);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 /*How to play section*/
 
