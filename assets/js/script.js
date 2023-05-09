@@ -1,6 +1,53 @@
 //Timer area
 
+const timer = document.getElementById("timer");
 
+let seconds = 0;
+let minutes = 0;
+let intervalId;
+
+function startTimer() {
+    intervalId = setInterval(() => {
+        seconds++
+        if (seconds === 60) {
+            seconds = 0;
+            minutes++;
+        }
+        timer.textContent = `${minutes < 10 ? "0" : ""}${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
+    }, 1000);  
+}
+
+function stopTimer() {
+    clearInterval(intervalId);
+}
+
+function resetTimer() {
+    seconds = 0;
+    minutes = 0;
+    timer.textContent = "00:00";
+}
+
+function startGame() {
+    startTimer(); 
+} 
+
+function endGame() {
+    stopTimer(); 
+} 
+
+document.querySelector(".reset button").addEventListener("click", () => {
+    resetTimer();
+});
+
+function disableCards() {
+    firstCard.removeEventListener('click', flipCard);
+    secondCard.removeEventListener('click', flipCard);
+    resetBoard();
+
+    if (document.querySelectorAll('.card:not(.is-flipped)').length === 0) {
+        endGame();
+    }
+}
 //allows the cards to match correctly
 
 const cards = document.querySelectorAll(".card");
@@ -62,13 +109,6 @@ var cards2 = document.querySelectorAll('.card');
     });
 });
 
-//Timer area
-
-
-
-
-//Game area for cards so they flip over
-
 const card = document.querySelectorAll('.card');
 
 [...cards].forEach((card) => {
@@ -78,8 +118,20 @@ const card = document.querySelectorAll('.card');
 });
 
 
+//Reset button area
+const resetButton = document.getElementById("reset-btn");
 
+resetButton.addEventListener("click", resetGame);
 
-
+function resetGame() {
+  
+}
 
 //How to play button
+
+function test() {
+    alert("HOW TO PLAY! ,1.Click any card to start, 2. Match the famous quote to the famous person, 3. Complete all four pairs to win. ");
+  }
+  
+  document.getElementById('buttonID').onclick = test;
+  

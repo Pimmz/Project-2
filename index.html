@@ -17,13 +17,15 @@
 <!--body to go here-->
 
 <body>
-
+<div class='w3-container'>
     <!--Game heading and font awesome icons-->
     <h2 class="heading"><i class="fas fa-pen-fancy"></i>Famous Quote Matcher<i class="fas fa-scroll"></i></h2>
 
     <!--Timer to go here-->
 
-
+    <div class="timer-container">
+        <span id="timer">00:00</span>
+    </div>
     <!--Cards to go here-->
 
     
@@ -77,14 +79,15 @@
     </div>
 
     <!--How to play button here-->
-    <div class='how-to-play'>
-        <button onclick='how-to-play'>How To Play</button> 
+    <div>
+    <button id='buttonID'>How to Play</button>
     </div>
+    <!--Reset button to go here-->
     <div class='reset'>
-        <button onclick='reset'>Reset</button>
+        <button id="reset-btn">Reset</button>
     </div>
 
-
+</div>
 
     <!--javascript link here-->
     <script src='assets/js/script.js'></script>
