@@ -26,6 +26,7 @@ function resetTimer() {
     minutes = 0;
     timer.textContent = "00:00";
 }
+document.addEventListener('DOMContentLoaded', startGame);
 
 function startGame() {
     startTimer(); 
@@ -71,9 +72,19 @@ function flipCard() {
     checkForMatch();
 }
 
+
+function checkGameOver() {
+    const numCardsFlipped = document.querySelectorAll('.is-flipped').length;
+    const totalCards = 8; totalCards = 8
+    if (numCardsFlipped === totalCards){ numCardsFlipped = 8
+        endGame();
+    }
+}
+
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
     isMatch ? disableCards() : unflipCards();
+    checkGameOver();
 }
 
 function disableCards() {

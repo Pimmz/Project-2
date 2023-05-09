@@ -13,17 +13,34 @@ body {
     background-repeat: no-repeat;
     font-family: 'Bubblegum Sans', cursive , sans-serif, serif;
     text-align: center;
+    height: 900px;
+    
+    
 }
 
 /*Heading of Game*/
 
 .heading {
     color: white;
-    font-size: 40px; 
+    font-size: 45px; 
+    text-shadow: 1px 1px black;
 }
 
 /*Timer area*/
 
+.timer-container {
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+    text-shadow: 1px 1px black;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
 
 /*Game area*/
 .flip-card {
@@ -59,6 +76,7 @@ body {
   
   .card__face--front {
     background: rgb(247, 224, 224);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
   }
   
@@ -131,14 +149,28 @@ body {
 #buttonID {
     font-family: 'Bubblegum Sans', cursive , sans-serif, serif;
     border-radius: 10px;
-    font-size: 15px;
-    float: left;
+    font-size: 25px;
+    color: rgba(178, 173, 173, 0.608);
+    text-shadow: 1px 1px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*Put the reset button here*/
 .reset button {
     font-family: 'Bubblegum Sans', cursive , sans-serif, serif;
     border-radius: 10px;
-    font-size: 15px;
-    float: right;
+    font-size: 20px;
+    color: rgba(178, 173, 173, 0.608);
+    text-shadow: 1px 1px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
+
+@media screen and (min-width:480px) {
+    .w3-container {
+        width: 460px;
+        margin-left: auto;
+        margin-right: auto;
+    }
