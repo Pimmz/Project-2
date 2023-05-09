@@ -140,5 +140,5 @@ function test() {
     alert("HOW TO PLAY! 1.Click any card to start, 2. Match the famous quote to the famous person, 3. Complete all four pairs to win. ");
   }
   
-  document.getElementById('btnID').onclick = test;
+  document.getElementById('buttonID').onclick = test;
   

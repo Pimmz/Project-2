@@ -4,7 +4,7 @@
 /*main background color and font*/
 
 .w3-container {
-    width: 445px;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -132,6 +132,7 @@ body {
     font-family: 'Bubblegum Sans', cursive , sans-serif, serif;
     border-radius: 10px;
     font-size: 15px;
+    float: left;
 }
 
 /*Put the reset button here*/
@@ -139,4 +140,5 @@ body {
     font-family: 'Bubblegum Sans', cursive , sans-serif, serif;
     border-radius: 10px;
     font-size: 15px;
+    float: right;
 }
