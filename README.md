@@ -1,39 +1,35 @@
-# 
+# Famous Quote Matcher
 
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
+Welcome to the Famous Quote Matcher. The memory game was created to help fill those times when you need abit of relaxation. I have created the memory game because it was one of my favorite games when I was growing up. I found that it challenged me mentally and helped me improve my memory, while having fun.
 
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
+Famous Quote Matcher has been designed so anyone can enjoy this simple but enjoyable game. I have used quotes instead of the traditional picture cards, so that the user can learn something while they play. I decided that the quotes used would be from Iconic people that have changed so many lives. I wanted the quotes to informative and funny so the user would hopefully find them funny and informative.
 
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://pimmz.github.io/Project-2
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
+Heres a screenshot of the website for to see from amiresponsive 
 
 ![screenshot](documentation/mockup.png)
 
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+https://ui.dev/amiresponsive?url=https://pimmz.github.io/Project-2
 
-## UX
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+## Design Process (UX)
 
-In this section, you will briefly explain your design processes.
+When I started the design of Famous Quote Matcher I wanted to ensure the site was Useful, Useable and Valuable, so that it makes the user experience informative and enjoyable. To do this I looked at the five key fundamentals;
+                            
+Stragety - So the user can enjoy this simple, enjoyable, memory game while learning alittle bit aboutsome of our greatest icons.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Scope - Based on the information from the stategy, the features included emotive images, which offered key information to the quote the famous person said. A timer so the user can see what their best was, so they can try to beat it. I also included a section so they can see how many guesses they made so they can not only complete the game as fast as possible but also do it in the least amount of moves. A how to play feature was also included so the use can see how to play the game if they are not familiar with this particular game. The option to reset the game was also included so they can put the game back to the start at any point.
+
+Structure - This was designed around the user. After speaking with a number of the general public, they wanted to know how to play the game?, the time they taken to complete it, the amount of guesses they had taken and to have the ability to reset the game at any time.
+
+Skeleton - As before this was designed around the user which was gained from information supplied by the general public. This dictated that it would be one page, laid out simply. So that it can be used quickly and effeciently, while delivering the most amount of fun and gaining a small amount of knowledge as well.
+
+Surface - I wanted the look of Famous Quote Matcher to be informative, clear, concise, with consistent typography and coresponding colours to help them stand out, to easily navigated with emotive pictures that helped to bring an element of fun which I believe we all need on a daily basis.
+
+Then I sat down and roughly sketched out onto paper what the screens would look like in a mobile, tablet and  desktop,  This then gave me the basis to start creating Famous Quote Matcher in Codeanywhere.
+
+![screenshot](documentation/testing)
 
 ### Colour Scheme
 
