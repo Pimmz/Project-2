@@ -14,7 +14,6 @@ body {
     background-repeat: no-repeat;
     font-family: 'Bubblegum Sans', cursive, sans-serif, serif;
     text-align: center;
-    height: 900px;
 }
 
 /*Heading of Game*/
@@ -187,3 +186,9 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+@media screen and (min-height:850px) {
+    body {
+        height: 1200px;
+    }}
