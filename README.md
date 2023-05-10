@@ -12,7 +12,10 @@ Heres a screenshot of the website for to see from amiresponsive
 https://ui.dev/amiresponsive?url=https://pimmz.github.io/Project-2
 
 
+
+
 ## Design Process (UX)
+
 
 When I started the design of Famous Quote Matcher I wanted to ensure the site was Useful, Useable and Valuable, so that it makes the user experience informative and enjoyable. To do this I looked at the five key fundamentals;
                             
@@ -30,7 +33,11 @@ Then I sat down and roughly sketched out onto paper what the screens would look 
 
 ![screenshot](/documentation/testing/sketchp2.png)
 
+
+
+
 ### Colour Scheme
+
 
 For the color scheme I used the below colours for;
 
@@ -39,130 +46,70 @@ For the color scheme I used the below colours for;
 - `box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);` was used for the box shadow.
 - `black` was used for secondary highlights.
 
-To help with the colour choice I used my color space https://mycolor.space/ it allowed me to generate the colours that best matched the game background. Please follow the link to mycolorspace, https://mycolor.space/gradient3?ori=to+right+top&hex=%23845EC2&hex2=%23FF9671&hex3=%23F9F871&submit=submit 
+To help with the colour choice I used my color space https://mycolor.space/ it allowed me to generate the colours that best matched the game background. 
+
+Please follow the link to mycolorspace, https://mycolor.space/gradient3?ori=to+right+top&hex=%23845EC2&hex2=%23FF9671&hex3=%23F9F871&submit=submit 
+
 Screenshot also attached incase the link dosent load;
+
 ![screenshot](/documentation/testing/mycolorspace.jpg)
 
 
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
 
 ### Typography
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+I looked for font on google fonts, to help me decide as it gave a better visual aid for me to see how they all looked in there different weights. After many hours trying the fonts out on mt game, I decide to use Bubblegum Sans all the way through to ensure a good balance, with a consitent look and feel. As a back up I used sans-serif as it has a great look and then my third choice was serif as a fall back incase the other two werent available.
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+- [bubblegum sans](https://fonts.google.com/specimen/Bubblegum+Sans?query=bubble) was used for the all the text and headers.
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Font Awesome](https://fontawesome.com) icons were used in the title.
 
 ## User Stories
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to be able to switch of, so that I can relax my mind.
+- As a new site user, I would like to be challenged mentally, so that I can have a challenge myself.
+- As a new site user, I would like to improve my memory, so that I can remember more things.
+- As a new site user, I would like to have fun, so that I can enjoy myself and unwind from a busy day.
+- As a new site user, I would like to learn something, so that I can improve my knowledge.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to be able to switch of, so that I can relax my mind.
+- As a returning site user, I would like to be challenged mentally, so that I can have a challenge myself.
+- As a returning site user, I would like improve my memory, so that I can remember more things.
+- As a returning site user, I would like to have fun, so that I can enjoy myself and unwind from a busy day.
 
 ### Site Admin
 
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
-- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to understand why something has been written, so that I can navigate the code easily.
+
+
+
 
 ## Wireframes
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes. 
+
+The direct link is here https://balsamiq.cloud/s9ei7tz/phsyq6e/rFF21?f=N4IgUiBcAMA0IDkpxAYWfAMlAjPAQrvALJEgBaZA0lANoC6AvkA%3D
+
 
 ### Home Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Mobile | ![screenshot](/documentation/testing/mobile-wireframe.png) |
+| Tablet | ![screenshot](/documentation/testing/tablet-wireframe.png) |
+| Desktop | ![screenshot](/documentation/testing/desktop-wireframe.png) |
 
-### About Page Wireframes
 
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
 
-### Contact Page Wireframes
-
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-contact.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Repeat for any addition wireframe pages you have.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## Features
 
