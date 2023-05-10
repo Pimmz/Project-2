@@ -29,7 +29,7 @@ Surface - I wanted the look of Famous Quote Matcher to be informative, clear, co
 
 Then I sat down and roughly sketched out onto paper what the screens would look like in a mobile, tablet and  desktop,  This then gave me the basis to start creating Famous Quote Matcher in Codeanywhere.
 
-![screenshot](documentation/testing)
+![screenshot]( SKETCH IMAGE)
 
 ### Colour Scheme
 
