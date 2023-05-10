@@ -57,13 +57,23 @@ Screenshot also attached incase the link dosent load;
 
 
 
+
 ### Typography
 
 I looked for font on google fonts, to help me decide as it gave a better visual aid for me to see how they all looked in there different weights. After many hours trying the fonts out on mt game, I decide to use Bubblegum Sans all the way through to ensure a good balance, with a consitent look and feel. As a back up I used sans-serif as it has a great look and then my third choice was serif as a fall back incase the other two werent available.
 
 - [bubblegum sans](https://fonts.google.com/specimen/Bubblegum+Sans?query=bubble) was used for the all the text and headers.
 
+
+
+## Icons
+
+To help with making Famous Quote Matcher as user friendly as possible I used icons from font awesome. This helped highlight specific areas to bring the user attention to it.
+
 - [Font Awesome](https://fontawesome.com) icons were used in the title.
+
+
+
 
 ## User Stories
 
@@ -107,6 +117,20 @@ The direct link is here https://balsamiq.cloud/s9ei7tz/phsyq6e/rFF21?f=N4IgUiBcA
 | Mobile | ![screenshot](/documentation/testing/mobile-wireframe.png) |
 | Tablet | ![screenshot](/documentation/testing/tablet-wireframe.png) |
 | Desktop | ![screenshot](/documentation/testing/desktop-wireframe.png) |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
