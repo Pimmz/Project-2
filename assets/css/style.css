@@ -4,25 +4,24 @@
 /*main background color and font*/
 
 .w3-container {
-    
+
     margin-left: auto;
     margin-right: auto;
 }
+
 body {
     background-image: linear-gradient(to right top, #845ec2, #b45cb6, #d65fa5, #ed6993, #fa7a82, #ff8977, #ff9a6e, #ffac69, #ffbe66, #ffd166, #ffe469, #f9f871);
     background-repeat: no-repeat;
-    font-family: 'Bubblegum Sans', cursive , sans-serif, serif;
+    font-family: 'Bubblegum Sans', cursive, sans-serif, serif;
     text-align: center;
     height: 900px;
-    
-    
 }
 
 /*Heading of Game*/
 
 .heading {
     color: white;
-    font-size: 45px; 
+    font-size: 50px;
     text-shadow: 1px 1px black;
 }
 
@@ -33,25 +32,23 @@ body {
     color: white;
     font-size: 25px;
     text-shadow: 1px 1px black;
-    width: 250px;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 75%;
+    width: 70%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    
 }
 
 /*Game area*/
 .flip-card {
     display: inline-block;
-    width: 150px;
-    height: 100px;
-    padding: 2px ;
-    perspective: 600px;  
-  }
-  
-  .card {
+    width: 165px;
+    height: 110px;
+    padding: 2px;
+    perspective: 600px;
+}
+
+.card {
     position: relative;
     width: 100%;
     height: 100%;
@@ -59,28 +56,28 @@ body {
     transform-style: preserve-3d;
     transform-origin: center right;
     transition: transform 1s;
-  }
-  
-  .card.is-flipped {
+}
+
+.card.is-flipped {
     transform: translateX(-100%) rotateY(-180deg);
-  }
-  
-  .card__face {
+}
+
+.card__face {
     position: absolute;
     width: 100%;
     height: 100%;
     line-height: 120px;
     backface-visibility: hidden;
     border-radius: 10px;
-  }
-  
-  .card__face--front {
+}
+
+.card__face--front {
     background: rgb(247, 224, 224);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
-  }
-  
-  .card__face--back1 {
+
+}
+
+.card__face--back1 {
     background-image: url('../images/albert-einstein.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -88,8 +85,9 @@ body {
     background-color: black;
     transform: rotateY(180deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .card__face--back2 {
+}
+
+.card__face--back2 {
     background-image: url('../images/dalai-quote.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -97,8 +95,9 @@ body {
     background-color: black;
     transform: rotateY(180deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .card__face--back3 {
+}
+
+.card__face--back3 {
     background-image: url('../images/billy-quote.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -106,8 +105,9 @@ body {
     background-color: black;
     transform: rotateY(180deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .card__face--back4 {
+}
+
+.card__face--back4 {
     background-image: url('../images/will-ferrell.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -115,8 +115,9 @@ body {
     background-color: black;
     transform: rotateY(180deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .card__face--back5 {
+}
+
+.card__face--back5 {
     background-image: url('../images/dalai-lama.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -124,8 +125,9 @@ body {
     background-color: black;
     transform: rotateY(180deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .card__face--back6 {
+}
+
+.card__face--back6 {
     background-image: url('../images/albert-quote.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -133,8 +135,9 @@ body {
     background-color: black;
     transform: rotateY(180deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .card__face--back7 {
+}
+
+.card__face--back7 {
     background-image: url('../images/will-quote.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -142,8 +145,9 @@ body {
     background-color: black;
     transform: rotateY(180deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .card__face--back8 {
+}
+
+.card__face--back8 {
     background-image: url('../images/billy-conolly.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -151,11 +155,12 @@ body {
     background-color: black;
     transform: rotateY(180deg);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+}
+
 /*How to play section*/
 
 #buttonID {
-    font-family: 'Bubblegum Sans', cursive , sans-serif, serif;
+    font-family: 'Bubblegum Sans', cursive, sans-serif, serif;
     border-radius: 10px;
     font-size: 25px;
     color: rgba(178, 173, 173, 0.608);
@@ -167,13 +172,13 @@ body {
 
 /*Put the reset button here*/
 .reset button {
-    font-family: 'Bubblegum Sans', cursive , sans-serif, serif;
+    font-family: 'Bubblegum Sans', cursive, sans-serif, serif;
     border-radius: 10px;
     font-size: 20px;
     color: rgba(178, 173, 173, 0.608);
     text-shadow: 1px 1px black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+
 }
 
 @media screen and (min-width:480px) {
