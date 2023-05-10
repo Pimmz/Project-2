@@ -7,8 +7,7 @@ Famous Quote Matcher has been designed so anyone can enjoy this simple but enjoy
 
 Heres a screenshot of the website for to see from amiresponsive 
 
-![screenshot](documentation/mockup.png)
-
+![screenshot](/documentation/testing/ami.png)
 
 https://ui.dev/amiresponsive?url=https://pimmz.github.io/Project-2
 
@@ -29,29 +28,22 @@ Surface - I wanted the look of Famous Quote Matcher to be informative, clear, co
 
 Then I sat down and roughly sketched out onto paper what the screens would look like in a mobile, tablet and  desktop,  This then gave me the basis to start creating Famous Quote Matcher in Codeanywhere.
 
-![screenshot]( SKETCH IMAGE)
+![screenshot](/documentation/testing/sketchp2.png)
 
 ### Colour Scheme
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+For the color scheme I used the below colours for;
 
-Explain your colours and the colour scheme.
+- `white` was used for primary text.
+- `rgb(247, 224, 224);` was used for primary highlights.
+- `box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);` was used for the box shadow.
+- `black` was used for secondary highlights.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+To help with the colour choice I used my color space https://mycolor.space/ it allowed me to generate the colours that best matched the game background. Please follow the link to mycolorspace, https://mycolor.space/gradient3?ori=to+right+top&hex=%23845EC2&hex2=%23FF9671&hex3=%23F9F871&submit=submit 
+Screenshot also attached incase the link dosent load;
+![screenshot](/documentation/testing/mycolorspace.jpg)
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
