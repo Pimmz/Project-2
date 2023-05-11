@@ -1,4 +1,5 @@
 //Timer area
+
 const timer = document.getElementById("timer");
 
 let seconds = 0;
@@ -25,14 +26,13 @@ function resetTimer() {
     minutes = 0;
     timer.textContent = "00:00";
 }
-document.addEventListener('DOMContentLoaded', startGame);
-
-function startGame() {
-    startTimer();
-}
 
 function endGame() {
     stopTimer();
+    setTimeout(function () {
+        alert('GAME OVER, CONGRATULATIONS!!');
+        localStorage.setItem("score", seconds);
+    }, 2000);
 }
 
 document.querySelector(".reset button").addEventListener("click", () => {
@@ -50,8 +50,6 @@ function disableCards() {
 }
 
 
-//counter
-
 //allows the cards to match correctly
 
 
@@ -61,9 +59,13 @@ const cards = document.querySelectorAll(".card");
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
-
+let gameStarted = false;
 
 function flipCard() {
+    if (gameStarted == false) {
+        startTimer();
+        gameStarted = true;
+    }
     if (lockBoard) return;
     if (this === firstCard) return;
     this.classList.add("is-flipped");
@@ -76,6 +78,7 @@ function flipCard() {
     }
     secondCard = this;
 
+    //Guesses made counter
     {
         if (sessionStorage.clickcount) {
             sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
@@ -84,22 +87,18 @@ function flipCard() {
         }
         document.getElementById("demo").innerHTML = sessionStorage.clickcount;
     }
-        
+
     checkForMatch();
 }
 
-
-
-
 function checkGameOver() {
     const numCardsFlipped = document.querySelectorAll('.is-flipped').length;
-    const totalCards = 8; totalCards = 8
+    const totalCards = 8;
     if (numCardsFlipped === totalCards) {
-        numCardsFlipped = 8
+
         endGame();
     }
 }
-
 
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
@@ -159,6 +158,13 @@ const card = document.querySelectorAll('.card');
 });
 
 
+//How to play button
+
+function test() {
+    alert("HOW TO PLAY! 1.Click any card to start, 2. Match the famous quote to the famous person, 3. Complete all four pairs to win. ");
+}
+document.getElementById('buttonID').onclick = test;
+
 
 
 //Reset button area
@@ -177,16 +183,8 @@ function resetGame() {
         card.addEventListener('click', flipCard);
     });
     resetBoard();
+    sessionStorage.clickcount = 0;
+    document.getElementById("demo").innerHTML = sessionStorage.clickcount;
+    gameStarted = false;
+    console.log(`current score: ${localStorage.getItem("score")}`);
 }
-
-
-
-
-//How to play button
-
-
-function test() {
-    alert("HOW TO PLAY! 1.Click any card to start, 2. Match the famous quote to the famous person, 3. Complete all four pairs to win. ");
-}
-document.getElementById('buttonID').onclick = test;
-
