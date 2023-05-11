@@ -30,9 +30,9 @@ function resetTimer() {
 function endGame() {
     stopTimer();
     setTimeout(function () {
-        alert('GAME OVER, CONGRATULATIONS!!');
+        alert('GAME OVER, CONGRATULATIONS! Can you complete it quicker?');
         localStorage.setItem("score", seconds);
-    }, 2000);
+    }, 1000);
 }
 
 document.querySelector(".reset button").addEventListener("click", () => {
@@ -188,3 +188,5 @@ function resetGame() {
     gameStarted = false;
     console.log(`current score: ${localStorage.getItem("score")}`);
 }
+
+//hi score area
