@@ -171,33 +171,22 @@ The feature were designed around the user. After speaking with a number of the g
 
 
 
-
-
-
-
-
-
-
-
-
-
 ### Future Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+- Shuffle feature
+    - So the game would get more challenging I would like to add a shuffle feature so that you didnt aways know exactly where the cards wouls be situated.
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+- Adding alot more cards. 
+    - I would love to add alot more cards to the existing eight. because currently it is quite easy to complete, where as if there was alot more, potentially upto 32 cards it would give the user a real challenge to match the quotes to the famous person.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- User sign in option.
+    - Having the option to allow the user to sign in on a individual log in would be a great addition to the game, so that the user would have a more personal and private game playing experience.
 
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
+-  emailing the score to the user.
+    - It would be a great addtion to the game to be able to email the end score to the user so they knew what score they achieved.
+
+-  Hi score board.
+    - Having a hi score board would be a fantastic way of making the game more competitve. Being able to see other peoples times they had completed the game in would create a real challenge for the user to beat their times or constantly try to improve their own time.
 
 ## Tools & Technologies Used
 
