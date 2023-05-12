@@ -188,44 +188,32 @@ The feature were designed around the user. After speaking with a number of the g
 -  Hi score board.
     - Having a hi score board would be a fantastic way of making the game more competitve. Being able to see other peoples times they had completed the game in would create a real challenge for the user to beat their times or constantly try to improve their own time.
 
+
+
+
 ## Tools & Technologies Used
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
 - [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
-- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+- [Codeanywhere](https://app.codeanywhere.com/) used as a cloud-based IDE for development.
+- [Balsamiq](https://balsamiq.com/) used for making the wireframes.
+- [Mycolor.space](https://mycolor.space/) used to choose the color scheme
+
+
+
 
 ## Testing
 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+
+
 
 ## Deployment
 
@@ -236,9 +224,15 @@ The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
 The live link can be found [here](https://pimmz.github.io/Project-2)
 
+
+
+
 ### Local Deployment
 
 This project can be cloned or forked in order to make a local copy on your own system.
+
+
+
 
 #### Cloning
 
@@ -260,6 +254,9 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
 A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
 
+
+
+
 #### Forking
 
 By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
@@ -269,24 +266,31 @@ You can fork this repository by using the following steps:
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
+
+
+
 ### Local VS Deployment
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+Due to the simpdifferences between the local version you've developed, and the live deployment site on GitHub Pages.
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## Credits
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+- [HTML](https://stackoverflow.com/) used to assist with styles throughout the site.
+- [CSS/HTML](https://mycolor.space/) used to assist with the choice of colours through the site.
+- [Images](https://www.pixabay.com/) used to assist with picking of the card photos.
+- [Images](https://www.pinterest.co.uk) used to assist with getting the quotes for the cards.
+- [Images](https://www.azquotes.com) used to assist with getting the quotes for the cards.
+- [Images](https://www.dreamstime.com) used to assist with picking of the card photos.
+- [Images](https://www.idlehearts.com) used to assist with getting the quotes for the cards.
 
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
+- [HTML](https://www.w3schools.com/css/css3_variables.asp) used to assist with code throughout the site.
+- [CSS](https://www.w3schools.com/css/css3_variables.asp) used to assist with styles throughout the site.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- Tutor support at code institute
+- Tim Nelson Mentor at code institute
+- Love running project at code institute
 ### Content
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
