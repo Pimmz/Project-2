@@ -1,7 +1,7 @@
 # Famous Quote Matcher
 
 
-Welcome to the Famous Quote Matcher. The memory game was created to help fill those times when you need abit of relaxation. I have created the memory game because it was one of my favorite games when I was growing up. I found that it challenged me mentally and helped me improve my memory, while having fun.
+Welcome to the Famous Quote Matcher. The memory game was created to help fill those times when you need abit of relaxation. I created the memory game because it was one of my favorite games when I was growing up. I found that it challenged me mentally and helped me improve my memory, while having fun.
 
 Famous Quote Matcher has been designed so anyone can enjoy this simple but enjoyable game. I have used quotes instead of the traditional picture cards, so that the user can learn something while they play. I decided that the quotes used would be from Iconic people that have changed so many lives. I wanted the quotes to informative and funny so the user would hopefully find them funny and informative.
 
@@ -121,64 +121,65 @@ The direct link is here https://balsamiq.cloud/s9ei7tz/phsyq6e/rFF21?f=N4IgUiBcA
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+Famous Quote Matcher has been designed so anyone can enjoy this simple but challenging game. I have used quotes instead of the traditional picture cards, so that the user can learn something while they play.
+The feature were designed around the user. After speaking with a number of the general public, they wanted to know, how to play the game?, the time they taken to complete it, the amount of guesses they had taken and to have the ability to reset the game at any time.
 
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
+- **Title Feature #1**
 
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
+    - Fun, catchy and informative title. As fun is the main aim of the game, bubblegum sans font was choosen so that it wasnt a very formal title, giving it a warm feeling, helping to draw the user into playing it. The name was choosen to be catchy and informative so the user can easily understand what the game is about so they can look forward to playing  it.
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+![screenshot](documentation/testing/title-feature.png)
 
-IMPORTANT: Remember to always include a screenshot of each individual feature!
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-### Existing Features
 
-- **Title for feature #1**
+- **Timer & Guesses made Feature #2**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Guesses made and Timer feature. In order for the game to have a real edge of competition and following the feedback from the public, the guesses made feature was added so that the user can constantly challenge themselves to get a lower amount of guesses. The timer feature was also added for the same reasons plus it adds a sense of pressure to the game, so that the user completes the game in as little time as possible.
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/testing/timer-feature.png)
 
-- **Title for feature #2**
+ 
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature02.png)
+- **Quote card feature #3**
 
-- **Title for feature #3**
+    - Famous Quote Matcher has been designed so anyone can enjoy this simple and challenging game. The memory game is a great way to enjoy and challenge yourself.
+    I have used quotes instead of the traditional picture cards, so that the user can learn something while they play and to add abit more of a fun element I selected quotes that hopefully make the user laugh. Plus learn abit of information about a famous icon. Which will in turn make the whole experience that much more entertaining.
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+![screenshot](documentation/testing/quote-card-feature.jpg)
 
-![screenshot](documentation/feature03.png)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Repeat as necessary for as many features as your site contains.
 
-Hint: the more, the merrier!
+- **How to play feature #4**
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+    - The how to play feature was added after feedback from the general public. Although this is a quite straight forward game to play, it was felt that it would clear up any uncertainty if it was explained how to play the game. making the experience that much more clearer and enjoyable to the user.
+
+![screenshot](documentation/testing/htp-feature.png)
+
+
+
+- **Reset feature #5**
+
+    - The reset button was added following feedback from the general public and as part of a main requirement for the game. In order for it to be reset once the user had completed the game. This way once all the cards had been turned over, you can simply press the reset button and the game turns all the cards over and sets the guesses made and timer to zero. Making it ready to play.
+
+![screenshot](documentation/testing/reset-feature.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Future Features
 
