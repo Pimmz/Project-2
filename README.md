@@ -105,7 +105,7 @@ To help with making Famous Quote Matcher as user friendly as possible I used ico
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes. 
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes. Ive updated the design from my earlier sketch to incorporate a leaderboard so it can create more of a challenge for the user.
 
 The direct link is here https://balsamiq.cloud/s9ei7tz/phsyq6e/rFF21?f=N4IgUiBcAMA0IDkpxAYWfAMlAjPAQrvALJEgBaZA0lANoC6AvkA%3D
 
