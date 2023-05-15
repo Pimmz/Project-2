@@ -283,39 +283,30 @@ Due to the simpdifferences between the local version you've developed, and the l
 - [Images](https://www.azquotes.com) used to assist with getting the quotes for the cards.
 - [Images](https://www.dreamstime.com) used to assist with picking of the card photos.
 - [Images](https://www.idlehearts.com) used to assist with getting the quotes for the cards.
-
-
-- [HTML](https://www.w3schools.com/css/css3_variables.asp) used to assist with code throughout the site.
+- [HTML](https://www.w3schools.com/html/default.asp) used to assist with code throughout the site.
 - [CSS](https://www.w3schools.com/css/css3_variables.asp) used to assist with styles throughout the site.
+- [Javascript](https://www.w3schools.com/js/default.asp) used to assist with javascript throughout the site.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - Tutor support at code institute
-- Tim Nelson Mentor at code institute
-- Love running project at code institute
+- Antonio Rodriguez Mentor at code institute
+- Love Math project at code institute
+
 ### Content
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [HTML](https://www.w3schools.com/html/default.asp) used to assist with code throughout the site.
+| [CSS](https://www.w3schools.com/css/css3_variables.asp) used to assist with styles throughout the site.
+| [Javascript](https://www.w3schools.com/js/default.asp) used to assist with javascript throughout the site.
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
+
+
 | [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+
+
 
 ### Media
 

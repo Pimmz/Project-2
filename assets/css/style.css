@@ -180,8 +180,35 @@ body {
     color: rgba(178, 173, 173, 0.608);
     text-shadow: 1px 1px black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
+
+/*Hi Score area*/
+#container {
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+.row {
+    display: table-cell;
+    
+    border-bottom: 1px solid #AFAFAF;
+}
+.name {
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    line-height: 45px;
+}
+.score {
+    position: relative;
+    display: inline-block;
+    width: 25%
+}
+
+
+
+/*Media queries for responsiveness*/
+
 
 @media screen and (min-width:480px) {
     .w3-container {

@@ -189,4 +189,39 @@ function resetGame() {
     console.log(`current score: ${localStorage.getItem("score")}`);
 }
 
-//hi score area
+//Hi score area
+
+document.addEventListener('DOMContentLoaded',()=> {
+    let scores =[]
+    let container = document.querySelector('#container')
+    if (localStorage.getItem('score')) {
+        scores = JSON.parse(localStorage.getItem('scores'));
+    }
+
+const currentScore = localStorage.getItem('score');
+    if (currentScore) {
+        scores.push(Number(currentScore));
+        scores.sort((z,a) => z - a )
+    }
+
+scores.sort((z,a) => z - a);
+scores.forEach((score, index) => {
+    const row = document.createElement('div');
+    row.classList.add('row');
+
+    const rank = document.createElement('span');
+    rank.classList.add('rank');
+    rank.textContent = index + 1;
+    row.appendChild(rank);
+
+    const scoreElement = document.createElement('span');
+    scoreElement.classList.add('score');
+    scoreElement.textContent = score;
+    row.appendChild(scoreElement);
+
+    container.appendChild(row);
+})
+
+localStorage.setItem('scores', JSON.stringify(scores));
+
+});
