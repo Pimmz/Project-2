@@ -21,7 +21,7 @@ When I started the design of Famous Quote Matcher I wanted to ensure the site wa
                             
 Stragety - So the user can enjoy this simple, enjoyable, memory game while learning alittle bit aboutsome of our greatest icons.
 
-Scope - Based on the information from the stategy, the features included emotive images, which offered key information to the quote the famous person said. A timer so the user can see what their best was, so they can try to beat it. I also included a section so they can see how many guesses they made so they can not only complete the game as fast as possible but also do it in the least amount of moves. A how to play feature was also included so the use can see how to play the game if they are not familiar with this particular game. The option to reset the game was also included so they can put the game back to the start at any point.
+Scope - Based on the information from the stategy, the features included emotive images, which offered key information to the quote the famous person said. A timer so the user can see what their best was, so they can try to beat it. I also included a section so they can see how many guesses they made so they can not only complete the game as fast as possible but also do it in the least amount of moves. A how to play feature was also included so the use can see how to play the game if they are not familiar with this particular game. The option to reset the game was also included so they can put the game back to the start at any point. Update: I have decided to include a leaderboard to the design so that it creates more of a challenge for the user.
 
 Structure - This was designed around the user. After speaking with a number of the general public, they wanted to know how to play the game?, the time they taken to complete it, the amount of guesses they had taken and to have the ability to reset the game at any time.
 
@@ -168,13 +168,17 @@ The feature were designed around the user. After speaking with a number of the g
 
 ![screenshot](documentation/testing/reset-feature.png)
 
+- **Leaderboard feature #6**
 
+    - The leaderboard was added after the intial design because I believe it creates more of a challenge for the user. I also sort feedback from the general public about my idea and they agreed it was a welcome addition. The leaderboard tracks the top five best times achieved, so the user can see their best time and then constantly try to improve. Making the game alot more immersive for the user. 
+
+![screenshot](documentation/testing/leaderboard-feature.png)
 
 
 ### Future Features
 
 - Shuffle feature
-    - So the game would get more challenging I would like to add a shuffle feature so that you didnt aways know exactly where the cards wouls be situated.
+    - So the game would get more challenging I would like to add a shuffle feature so that you didnt always know exactly where the cards woulds be situated.
 
 - Adding alot more cards. 
     - I would love to add alot more cards to the existing eight. because currently it is quite easy to complete, where as if there was alot more, potentially upto 32 cards it would give the user a real challenge to match the quotes to the famous person.
@@ -184,9 +188,6 @@ The feature were designed around the user. After speaking with a number of the g
 
 -  emailing the score to the user.
     - It would be a great addtion to the game to be able to email the end score to the user so they knew what score they achieved.
-
--  Hi score board.
-    - Having a hi score board would be a fantastic way of making the game more competitve. Being able to see other peoples times they had completed the game in would create a real challenge for the user to beat their times or constantly try to improve their own time.
 
 
 
@@ -271,7 +272,7 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-Due to the simpdifferences between the local version you've developed, and the live deployment site on GitHub Pages.
+Due to the simple differences between the local version you've developed, and the live deployment site on GitHub Pages.
 
 
 ## Credits
@@ -297,56 +298,38 @@ Due to the simpdifferences between the local version you've developed, and the l
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [HTML](https://www.w3schools.com/html/default.asp) used to assist with code throughout the site.
-| [CSS](https://www.w3schools.com/css/css3_variables.asp) used to assist with styles throughout the site.
-| [Javascript](https://www.w3schools.com/js/default.asp) used to assist with javascript throughout the site.
+| [HTML](https://www.w3schools.com/html/default.asp) |Entire site|used to assist with code throughout the site.
+| [HTML](https://www.w3schools.com/tags/att_data-.asp) |Entire site|used to assist with data to quantify an object or entity throughout the site.
+| [CSS](https://www.w3schools.com/css/css3_variables.asp) |Entire site| used to assist with styles throughout the site.
+| [Javascript](https://www.w3schools.com/js/default.asp) |Entire site|used to assist with javascript throughout the site.
+| [Javascript](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) |Entire site|used to assist with listeners for an event throughout the site.
+| [Javascript](https://www.w3schools.com/jsref/met_win_setinterval.asp) |Timer|used to assist with the timer functionality.
+| [Javascript](https://www.w3schools.com/jsref/met_win_settimeout.asp) |Timer|used to assist with the timer functionality.
+| [Javascript](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp) |Leaderboard|used to assist with the leaderboard functionality.
+| [Javascript](https://www.w3schools.com/jsref/prop_win_localstorage.asp) |Leaderboard|used to assist with the leaderboard functionality.
+| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 
 
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-
-
-
 ### Media
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [Pixabay](https://www.pixabay.com/) | Cards | image | used to assist with picking the card photos |
+| [Pinterest](https://www.pinterest.co.uk) | Cards | image | used to assist with getting the quotes for the cards |
+| [Azquotes](https://www.azquotes.com) | Cards | image | used to assist with getting the quotes for the cards |
+| [Dreamstime](https://www.dreamstime.com) | Cards | image | used to assist with picking of the card photos |
+| [Idlehearts](https://www.idlehearts.com) | Cards | image | used to assist with getting the quotes for the cards |
+
 
 ### Acknowledgements
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, Antonio Rodriguez for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- I would like to thank my partner Hilda, for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my family, for believing in me, and allowing me to make this transition into software development.
