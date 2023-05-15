@@ -191,7 +191,7 @@ function resetGame() {
 
 //Hi score area
 
-document.addEventListener('DOMContentLoaded',()=> {
+document.addEventListener('',()=> {
     let scores =[]
     let container = document.querySelector('#container')
     if (localStorage.getItem('score')) {

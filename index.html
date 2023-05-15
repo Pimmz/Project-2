@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <!--head put here-->
 
 <head>
@@ -18,28 +19,23 @@
 
 <body>
     <div class='w3-container'>
+
         <!--Game heading and font awesome icons-->
         <h2 class="heading"><i class="fas fa-pen-fancy"></i>Famous Quote Matcher</h2>
 
-        <!--Timer & Counter to go here-->
-
-        <div class="timer-container">
-            <span id="counter1">Guesses Made</span>
-            <span id="demo">0</span>
-            <br>
-            <span id="timer1">Timer</span>
-            <span id="timer"> 00:00</span>
-
-        </div>
-
+        
+        <!--Leaderboard to go here-->
+        <div class="leader">Leaderboard</div>
         <div id="container">
             <div class="row">
-                <div class="name">Position</div>
-                <div class="score">Time</div>
+                <span class="rank">Rank</span>
+                <br>
+                <span class="score">Time</span>
             </div>
         </div>
-        <!--Cards to go here-->
+        
 
+        <!--Cards to go here-->
 
         <div class='flip-card'>
             <div class='card' data-framework='one'>
@@ -91,24 +87,29 @@
 
         </div>
 
-        <!--How to play button here-->
-        <div>
-            <button id='buttonID'>How to Play</button>
-        </div>
+    <!--Timer & Counter to go here-->
 
-        <!--Reset button to go here-->
-        <div class='reset'>
-            <button id="reset-btn">Reset</button>
-        </div>
-
+    <div class="timer-container">
+        <span id="counter1">Guesses Made</span>
+        <span id="demo">0</span>
+        <br>
+        <span id="timer1">Timer</span>
+        <span id="timer"> 00:00</span>
     </div>
 
-    <!--Hi score area-->
 
-    
+    <!--How to play button here-->
+    <div>
+        <button id='buttonID'>How to Play</button>
+    </div>
 
 
+    <!--Reset button to go here-->
+    <div class='reset'>
+        <button id="reset-btn">Reset</button>
+    </div>
 
+</div>
 
     <!--javascript link here-->
     <script src='assets/js/script.js'></script>
