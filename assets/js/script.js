@@ -105,7 +105,7 @@ function checkGameOver() {
 
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
-    
+
     if (isMatch) {
         disableCards();
     } else {
@@ -197,37 +197,37 @@ function resetGame() {
 
 //Hi score area
 
-document.addEventListener('',()=> {
-    let scores =[];
+document.addEventListener('', () => {
+    let scores = [];
     let container = document.querySelector('#container');
     if (localStorage.getItem('score')) {
         scores = JSON.parse(localStorage.getItem('scores'));
     }
 
-const currentScore = localStorage.getItem('score');
+    const currentScore = localStorage.getItem('score');
     if (currentScore) {
         scores.push(Number(currentScore));
-        scores.sort((z,a) => z - a );
+        scores.sort((z, a) => z - a);
     }
 
-scores.sort((z,a) => z - a);
-scores.forEach((score, index) => {
-    const row = document.createElement('div');
-    row.classList.add('row');
+    scores.sort((z, a) => z - a);
+    scores.forEach((score, index) => {
+        const row = document.createElement('div');
+        row.classList.add('row');
 
-    const rank = document.createElement('span');
-    rank.classList.add('rank');
-    rank.textContent = index + 1;
-    row.appendChild(rank);
+        const rank = document.createElement('span');
+        rank.classList.add('rank');
+        rank.textContent = index + 1;
+        row.appendChild(rank);
 
-    const scoreElement = document.createElement('span');
-    scoreElement.classList.add('score');
-    scoreElement.textContent = score;
-    row.appendChild(scoreElement);
+        const scoreElement = document.createElement('span');
+        scoreElement.classList.add('score');
+        scoreElement.textContent = score;
+        row.appendChild(scoreElement);
 
-    container.appendChild(row);
-});
+        container.appendChild(row);
+    });
 
-localStorage.setItem('scores', JSON.stringify(scores));
+    localStorage.setItem('scores', JSON.stringify(scores));
 
 });
