@@ -1,3 +1,6 @@
+//jshint esversion: 11
+
+
 //Timer area
 
 const timer = document.getElementById("timer");
@@ -8,7 +11,7 @@ let intervalId;
 
 function startTimer() {
     intervalId = setInterval(() => {
-        seconds++
+        seconds++;
         if (seconds === 60) {
             seconds = 0;
             minutes++;
@@ -102,7 +105,12 @@ function checkGameOver() {
 
 function checkForMatch() {
     let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
-    isMatch ? disableCards() : unflipCards();
+    
+    if (isMatch) {
+        disableCards();
+    } else {
+        unflipCards();
+    }
     checkGameOver();
 }
 
@@ -148,8 +156,6 @@ var cards2 = document.querySelectorAll('.card');
 });
 
 
-const card = document.querySelectorAll('.card');
-
 
 [...cards].forEach((card) => {
     card.addEventListener('click', function () {
@@ -192,8 +198,8 @@ function resetGame() {
 //Hi score area
 
 document.addEventListener('',()=> {
-    let scores =[]
-    let container = document.querySelector('#container')
+    let scores =[];
+    let container = document.querySelector('#container');
     if (localStorage.getItem('score')) {
         scores = JSON.parse(localStorage.getItem('scores'));
     }
@@ -201,7 +207,7 @@ document.addEventListener('',()=> {
 const currentScore = localStorage.getItem('score');
     if (currentScore) {
         scores.push(Number(currentScore));
-        scores.sort((z,a) => z - a )
+        scores.sort((z,a) => z - a );
     }
 
 scores.sort((z,a) => z - a);
@@ -220,7 +226,7 @@ scores.forEach((score, index) => {
     row.appendChild(scoreElement);
 
     container.appendChild(row);
-})
+});
 
 localStorage.setItem('scores', JSON.stringify(scores));
 
