@@ -306,11 +306,12 @@ Due to the simple differences between the local version you've developed, and th
 | [CSS](https://www.w3schools.com/css/css3_variables.asp) |Entire site| used to assist with styles throughout the site.
 | [Javascript](https://www.w3schools.com/js/default.asp) |Entire site|used to assist with javascript throughout the site.
 | [Javascript](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) |Entire site|used to assist with listeners for an event throughout the site.
-| [Javascript](https://www.w3schools.com/jsref/met_win_setinterval.asp) |Timer|used to assist with the timer functionality.
-| [Javascript](https://www.w3schools.com/jsref/met_win_settimeout.asp) |Timer|used to assist with the timer functionality.
-| [Javascript](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp) |Leaderboard|used to assist with the leaderboard functionality.
-| [Javascript](https://www.w3schools.com/jsref/prop_win_localstorage.asp) |Leaderboard|used to assist with the leaderboard functionality.
+| [Javascript](https://www.w3schools.com/jsref/met_win_setinterval.asp) |Timer set interval|used to assist with the timer functionality.
+| [Javascript](https://www.w3schools.com/jsref/met_win_settimeout.asp) |Timer set timeout |used to assist with the timer functionality.
+| [Javascript](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp) |Leaderboard session storage|used to assist with the leaderboard functionality.
+| [Javascript](https://www.w3schools.com/jsref/prop_win_localstorage.asp) |Leaderboard local storage |used to assist with the leaderboard functionality.
 | [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
+| [YouTube](https://www.youtube.com/watch?v=XtEs0SZ_4Y0) | data attributes | How to use the DATA attribute with JavaScript, HTML and CSS. |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 
