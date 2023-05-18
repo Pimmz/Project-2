@@ -59,7 +59,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](documentation/testing/testing-images/chrome-desktop.jpg) | Works as expected |
+| Chrome Desktop | ![screenshot](documentation/testing/testing-images/chrome-desktop.jpg) | Works as expected |
 | Chrome Tablet| ![screenshot](documentation/testing/testing-images/chrome-tablet.jpg) | Works as expected |
 | Chrome Mobile| ![screenshot](documentation/testing/testing-images/chrome-mobile.jpg) | Works as expected |
 | Firefox desktop| ![screenshot](documentation/testing/testing-images/Firefox.jpg) | Works as expected |
