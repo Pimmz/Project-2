@@ -124,24 +124,24 @@ The direct link is here https://balsamiq.cloud/s9ei7tz/phsyq6e/rFF21?f=N4IgUiBcA
 ## Features
 
 Famous Quote Matcher has been designed so anyone can enjoy this simple but challenging game. I have used quotes instead of traditional picture cards so the user can learn something while they play.
-The features were designed around the user. After speaking with a number of the general public, they wanted to know how to play the game. the time they have taken to complete it, the number of guesses they had taken and to have the ability to reset the game at any time.
+The features were designed around the user. After speaking with a number of the general public, they wanted to know how to play the game. The time they have taken to complete it, the number of guesses they had taken and to have the ability to reset the game at any time.
 
 
-- **Title Feature #1**
+- **Title Feature 1**
 
   - Fun, catchy and informative title. As fun is the main aim of the game, bubblegum sans font was chosen so that it wasn't a very formal title, giving it a warm feeling, and helping to draw the user into playing it. The name was chosen to be catchy and informative so the user can easily understand what the game is about so they can look forward to playing it.
 
 ![screenshot](documentation/testing/title-feature.png)
 
 
-- **Timer & Guesses made Feature #2**
+- **Timer & Guesses made Feature 2**
 
   - Guesses made and Timer feature. In order for the game to have a real edge over the competition and following the feedback from the public, the guesses-made feature was added so that the user can constantly challenge themselves to get a lower amount of guesses. The timer feature was also added for the same reasons plus it adds a sense of pressure to the game so that the user completes the game in as little time as possible.
 
 ![screenshot](documentation/testing/timer-feature.png)
 
 
-- **Quote card feature #3**
+- **Quote card feature 3**
 
   - Famous Quote Matcher has been designed so anyone can enjoy this simple and challenging game. The memory game is a great way to enjoy and challenge yourself.
   I have used quotes instead of the traditional picture cards so that the user can learn something while they play and to add a bit more of a fun element I selected quotes that hopefully make the user laugh. Plus learn a bit of information about a famous icon. Which will in turn make the whole experience that much more entertaining.
@@ -149,21 +149,21 @@ The features were designed around the user. After speaking with a number of the 
 ![screenshot](documentation/testing/quote-card-feature.jpg)
 
 
-- **How to play feature #4**
+- **How to play feature 4**
 
   - The how-to-play feature was added after feedback from the general public. Although this is a quite straightforward game to play, it was felt that it would clear up any uncertainty if it was explained how to play the game. making the experience that much more clearer and enjoyable to the user.
 
 ![screenshot](documentation/testing/htp-feature.png)
 
 
-- **Reset feature #5**
+- **Reset feature 5**
 
   - The reset button was added following feedback from the general public and as part of a main requirement for the game. In order for it to be reset once the user had completed the game. This way once all the cards had been turned over, you can simply press the reset button and the game turns all the cards over and sets the guesses made and timer to zero. Making it ready to play.
 
 ![screenshot](documentation/testing/reset-feature.png)
 
 
-- **Leaderboard feature #6**
+- **Leaderboard feature 6**
 
   - The leaderboard was added after the initial design because I believe it creates more of a challenge for the user. I also sought feedback from the general public about my idea and they agreed it was a welcome addition. The leaderboard tracks the top five best times achieved, so the user can see their best time and then constantly try to improve. Making the game a lot more immersive for the user.
 
@@ -175,16 +175,13 @@ The features were designed around the user. After speaking with a number of the 
 ### Future Features
 
 - Adding a lot more cards.
-  - I would love to add a lot more cards to the existing eight. because currently, it is quite easy to complete, whereas if there were a lot more, potentially up to 32 cards it would give the user a real challenge to match the quotes to the famous person.
+  - I would love to add a lot more cards to the existing eight. Because currently, it is quite easy to complete, whereas if there were a lot more, potentially up to 32 cards it would give the user a real challenge to match the quotes to the famous person.
 
 - User sign-in option.
   - Having the option to allow the user to sign in on an individual log-in would be a great addition to the game so that the user would have a more personal and private game-playing experience.
 
 -  email the score to the user.
     - It would be a great addition to the game to be able to email the end score to the user so they knew what score they achieved.
-
-- Shuffle feature
-  - So the game would get more challenging. I would like to add a shuffle feature so that you didn't always know exactly where the cards would be situated. I would have added this if I hadnt spent so long on the leaderboard, which then pushed me for time to keep level with the progress checklist.
 
 
 
@@ -277,13 +274,11 @@ Due to the simple differences between the local version you've developed, and th
 
 ## Credits
 
-- [HTML](https://stackoverflow.com/) used to assist with styles throughout the site.
-- [CSS/HTML](https://mycolor.space/) used to assist with the choice of colours through the site.
-- [Images](https://www.pixabay.com/) used to assist with picking the card photos.
-- [Images](https://www.pinterest.co.uk) used to assist with getting the quotes for the cards.
-- [Images](https://www.azquotes.com) used to assist with getting the quotes for the cards.
-- [Images](https://www.dreamstime.com) used to assist with picking the card photos.
-- [Images](https://www.idlehearts.com) used to assist with getting the quotes for the cards.
+- [Pixabay](https://www.pixabay.com/) used to assist with picking the card photos.
+- [Pinterest](https://www.pinterest.co.uk) used to assist with getting the quotes for the cards.
+- [Azquotes](https://www.azquotes.com) used to assist with getting the quotes for the cards.
+- [Dreamtime](https://www.dreamstime.com) used to assist with picking the card photos.
+- [Idlehearts](https://www.idlehearts.com) used to assist with getting the quotes for the cards.
 - [HTML](https://www.w3schools.com/html/default.asp) used to assist with code throughout the site.
 - [CSS](https://www.w3schools.com/css/css3_variables.asp) used to assist with styles throughout the site.
 - [Javascript](https://www.w3schools.com/js/default.asp) used to assist with javascript throughout the site.
@@ -302,16 +297,16 @@ Due to the simple differences between the local version you've developed, and th
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [HTML](https://www.w3schools.com/html/default.asp) |Entire site|used to assist with code throughout the site.
-| [HTML](https://www.w3schools.com/tags/att_data-.asp) |Entire site|used to assist with data to quantify an object or entity throughout the site.
+| [HTML Data Attribute](https://www.w3schools.com/tags/att_data-.asp) |Entire site|used to assist with data to quantify an object or entity throughout the site.
+| [YouTube Data Attribute](https://www.youtube.com/watch?v=XtEs0SZ_4Y0) | data attributes | How to use the DATA attribute with JavaScript, HTML and CSS. |
 | [CSS](https://www.w3schools.com/css/css3_variables.asp) |Entire site| used to assist with styles throughout the site.
 | [Javascript](https://www.w3schools.com/js/default.asp) |Entire site|used to assist with javascript throughout the site.
-| [Javascript](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) |Entire site|used to assist with listeners for an event throughout the site.
-| [Javascript](https://www.w3schools.com/jsref/met_win_setinterval.asp) |Timer set interval|used to assist with the timer functionality.
-| [Javascript](https://www.w3schools.com/jsref/met_win_settimeout.asp) |Timer set timeout |used to assist with the timer functionality.
-| [Javascript](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp) |Leaderboard session storage|used to assist with the leaderboard functionality.
-| [Javascript](https://www.w3schools.com/jsref/prop_win_localstorage.asp) |Leaderboard local storage |used to assist with the leaderboard functionality.
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=XtEs0SZ_4Y0) | data attributes | How to use the DATA attribute with JavaScript, HTML and CSS. |
+| [Javascript event listener](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) |Entire site|used to assist with listeners for an event throughout the site.
+| [Javascript set interval](https://www.w3schools.com/jsref/met_win_setinterval.asp) |Timer set interval|used to assist with the timer functionality.
+| [Javascript set timeout](https://www.w3schools.com/jsref/met_win_settimeout.asp) |Timer set timeout |used to assist with the timer functionality.
+| [Javascript session storage](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp) |Leaderboard session storage|used to assist with the leaderboard functionality.
+| [Javascript local storage](https://www.w3schools.com/jsref/prop_win_localstorage.asp) |Leaderboard local storage |used to assist with the leaderboard functionality.
+| [YouTube local storage](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores.
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 
