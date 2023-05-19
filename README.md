@@ -294,21 +294,21 @@ Due to the simple differences between the local version you've developed, and th
 
 | Source | Location | Notes |
 | --- | --- | --- |
-| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | Tool to help generate the Markdown files |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | Version control | "How to Write a Git Commit Message" |
 | [HTML](https://www.w3schools.com/html/default.asp) |Entire site|used to assist with code throughout the site.
-| [HTML Data Attribute](https://www.w3schools.com/tags/att_data-.asp) |Entire site|used to assist with data to quantify an object or entity throughout the site.
-| [YouTube Data Attribute](https://www.youtube.com/watch?v=XtEs0SZ_4Y0) | data attributes | How to use the DATA attribute with JavaScript, HTML and CSS. |
-| [CSS](https://www.w3schools.com/css/css3_variables.asp) |Entire site| used to assist with styles throughout the site.
-| [Javascript](https://www.w3schools.com/js/default.asp) |Entire site|used to assist with javascript throughout the site.
-| [Javascript event listener](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) |Entire site|used to assist with listeners for an event throughout the site.
-| [Javascript set interval](https://www.w3schools.com/jsref/met_win_setinterval.asp) |Timer set interval|used to assist with the timer functionality.
-| [Javascript set timeout](https://www.w3schools.com/jsref/met_win_settimeout.asp) |Timer set timeout |used to assist with the timer functionality.
-| [Javascript session storage](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp) |Leaderboard session storage|used to assist with the leaderboard functionality.
-| [Javascript local storage](https://www.w3schools.com/jsref/prop_win_localstorage.asp) |Leaderboard local storage |used to assist with the leaderboard functionality.
-| [YouTube local storage](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores.
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
+| [HTML Data Attribute](https://www.w3schools.com/tags/att_data-.asp) |Entire site| Used to assist with data to quantify an object or entity throughout the site.
+| [YouTube Data Attribute](https://www.youtube.com/watch?v=XtEs0SZ_4Y0) | Data attributes | How to use the Data attribute with JavaScript, HTML and CSS. |
+| [CSS](https://www.w3schools.com/css/css3_variables.asp) |Entire site| Used to assist with styles throughout the site.
+| [Javascript](https://www.w3schools.com/js/default.asp) |Entire site| Used to assist with javascript throughout the site.
+| [Javascript event listener](https://www.w3schools.com/jsref/met_document_addeventlistener.asp) |Entire site|Used to assist with listeners for an event throughout the site.
+| [Javascript set interval](https://www.w3schools.com/jsref/met_win_setinterval.asp) |Timer set interval|Used to assist with the timer functionality.
+| [Javascript set timeout](https://www.w3schools.com/jsref/met_win_settimeout.asp) |Timer set timeout |Used to assist with the timer functionality.
+| [Javascript session storage](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp) |Leaderboard session storage|Used to assist with the leaderboard functionality.
+| [Javascript local storage](https://www.w3schools.com/jsref/prop_win_localstorage.asp) |Leaderboard local storage |Used to assist with the leaderboard functionality.
+| [YouTube local storage](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | Using `localStorage()` in JS for high scores.
+| [Flexbox Froggy](https://flexboxfroggy.com/) | Entire site | Modern responsive layouts |
+| [Grid Garden](https://cssgridgarden.com) | Entire site | Modern responsive layouts |
 
 
 
@@ -317,12 +317,12 @@ Due to the simple differences between the local version you've developed, and th
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Pixabay](https://www.pixabay.com/) | Cards | image | used to assist with picking the card photos |
-| [Pinterest](https://www.pinterest.co.uk) | Cards | image | used to assist with getting the quotes for the cards |
-| [Azquotes](https://www.azquotes.com) | Cards | image | used to assist with getting the quotes for the cards |
-| [Dreamstime](https://www.dreamstime.com) | Cards | image | used to assist with picking of the card photos |
-| [Idlehearts](https://www.idlehearts.com) | Cards | image | used to assist with getting the quotes for the cards |
+| [Pexels](https://www.pexels.com) | Entire site | Image | Favicon |
+| [Pixabay](https://www.pixabay.com/) | Cards | Image | Used to assist with picking the card photos |
+| [Pinterest](https://www.pinterest.co.uk) | Cards | Image | Used to assist with getting the quotes for the cards |
+| [Azquotes](https://www.azquotes.com) | Cards | Image | Used to assist with getting the quotes for the cards |
+| [Dreamstime](https://www.dreamstime.com) | Cards | Image | Used to assist with picking of the card photos |
+| [Idlehearts](https://www.idlehearts.com) | Cards | Image | Used to assist with getting the quotes for the cards |
 
 
 
