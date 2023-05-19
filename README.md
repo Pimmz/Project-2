@@ -6,7 +6,7 @@ Famous Quote Matcher has been designed so anyone can enjoy this simple but enjoy
 
 Here's a screenshot of the website for you to see from amiresponsive
 
-![screenshot](/documentation/testing/ami.png)
+![screenshot](/documentation/readme-images/ami.png)
 
 
 https://ui.dev/amiresponsive?url=https://pimmz.github.io/Project-2
@@ -31,7 +31,7 @@ Surface - I wanted the look of Famous Quote Matcher to be informative, clear, an
 Then I sat down and roughly sketched out onto paper what the screens would look like on a mobile, tablet and desktop, This then gave me the basis to start creating Famous Quote Matcher in Codeanywhere.
 
 
-![screenshot](/documentation/testing/sketchp2.png)
+![screenshot](/documentation/readme-images/sketchp2.png)
 
 
 
@@ -54,7 +54,7 @@ Please follow the link to mycolorspace, https://mycolor.space/gradient3?ori=to+r
 Screenshot also attached in case the link doesn't load;
 
 
-![screenshot](/documentation/testing/mycolorspace.jpg)
+![screenshot](/documentation/readme-images/mycolorspace.jpg)
 
 
 
@@ -114,9 +114,9 @@ The direct link is here https://balsamiq.cloud/s9ei7tz/phsyq6e/rFF21?f=N4IgUiBcA
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](/documentation/testing/mobile-wireframe.png) |
-| Tablet | ![screenshot](/documentation/testing/tablet-wireframe.png) |
-| Desktop | ![screenshot](/documentation/testing/desktop-wireframe.png) |
+| Mobile | ![screenshot](/documentation/readme-images/mobile-wireframe.png) |
+| Tablet | ![screenshot](/documentation/readme-images/tablet-wireframe.png) |
+| Desktop | ![screenshot](/documentation/readme-images/desktop-wireframe.png) |
 
 
 
@@ -131,14 +131,14 @@ The features were designed around the user. After speaking with a number of the 
 
   - Fun, catchy and informative title. As fun is the main aim of the game, bubblegum sans font was chosen so that it wasn't a very formal title, giving it a warm feeling, and helping to draw the user into playing it. The name was chosen to be catchy and informative so the user can easily understand what the game is about so they can look forward to playing it.
 
-![screenshot](documentation/testing/title-feature.png)
+![screenshot](documentation/readme-images/title-feature.png)
 
 
 - **Timer & Guesses made Feature 2**
 
   - Guesses made and Timer feature. In order for the game to have a real edge over the competition and following the feedback from the public, the guesses-made feature was added so that the user can constantly challenge themselves to get a lower amount of guesses. The timer feature was also added for the same reasons plus it adds a sense of pressure to the game so that the user completes the game in as little time as possible.
 
-![screenshot](documentation/testing/timer-feature.png)
+![screenshot](documentation/readme-images/timer-feature.png)
 
 
 - **Quote card feature 3**
@@ -146,28 +146,28 @@ The features were designed around the user. After speaking with a number of the 
   - Famous Quote Matcher has been designed so anyone can enjoy this simple and challenging game. The memory game is a great way to enjoy and challenge yourself.
   I have used quotes instead of the traditional picture cards so that the user can learn something while they play and to add a bit more of a fun element I selected quotes that hopefully make the user laugh. Plus learn a bit of information about a famous icon. Which will in turn make the whole experience that much more entertaining.
 
-![screenshot](documentation/testing/quote-card-feature.jpg)
+![screenshot](documentation/readme-images/quote-card-feature.jpg)
 
 
 - **How to play feature 4**
 
   - The how-to-play feature was added after feedback from the general public. Although this is a quite straightforward game to play, it was felt that it would clear up any uncertainty if it was explained how to play the game. making the experience that much more clearer and enjoyable to the user.
 
-![screenshot](documentation/testing/htp-feature.png)
+![screenshot](documentation/readme-images/htp-feature.png)
 
 
 - **Reset feature 5**
 
   - The reset button was added following feedback from the general public and as part of a main requirement for the game. In order for it to be reset once the user had completed the game. This way once all the cards had been turned over, you can simply press the reset button and the game turns all the cards over and sets the guesses made and timer to zero. Making it ready to play.
 
-![screenshot](documentation/testing/reset-feature.png)
+![screenshot](documentation/readme-images/reset-feature.png)
 
 
 - **Leaderboard feature 6**
 
   - The leaderboard was added after the initial design because I believe it creates more of a challenge for the user. I also sought feedback from the general public about my idea and they agreed it was a welcome addition. The leaderboard tracks the top five best times achieved, so the user can see their best time and then constantly try to improve. Making the game a lot more immersive for the user.
 
-![screenshot](documentation/testing/leaderboard-feature.png)
+![screenshot](documentation/readme-images/leaderboard-feature.png)
 
 
 
