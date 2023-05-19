@@ -94,7 +94,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Chrome Mobile| ![screenshot](documentation/testing/testing-images/chrome-mobile.jpg) | Works as expected |
 | Firefox desktop| ![screenshot](documentation/testing/testing-images/Firefox.jpg) | Works as expected |
 | Firefox Tablet| ![screenshot](documentation/testing/testing-images/firefox-tablet.png) | Works as expected |
-| Firefox Mobile| ![screenshot](documentation/testing/testing-images/chrome-mobile.jpg) | Works as expected |
+| Firefox Mobile| ![screenshot](documentation/testing/testing-images/firefox-mobile.jpg) | Works as expected |
 | Brave Desktop| ![screenshot](documentation/testing/testing-images/brave-desktop.jpg) | Works as expected |
 | Brave Tablet| ![screenshot](documentation/testing/testing-images/brave-tablet.jpg) | Works as expected |
 | Brave Mobile|![screenshot](documentation/testing/testing-images/brave-mobile.jpg) | Works as expected |
@@ -166,12 +166,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | As a new site user, I would like to improve my memory, so that I can remember more things.| ![screenshot](documentation/testing/quote-card-feature.jpg) |
 | As a new site user, I would like to have fun, so that I can enjoy myself and unwind from a busy day.| ![screenshot](documentation/testing/quote-card-feature.jpg) |
 | As a new site user, I would like to learn something, so that I can improve my knowledge.| ![screenshot](documentation/testing/quote-card-feature.jpg) |
-| As a returning site user, I would like to be able to switch off, so that I can relax my mind. | ![screenshot](documentation/testing/quote-card-feature.jpg) |
+| As a returning site user, I would like to be able relax, so that I can unwind my mind. | ![screenshot](documentation/testing/quote-card-feature.jpg) |
 | As a returning site user, I would like to be challenged mentally, so that I can have a challenge myself. | ![screenshot](documentation/testing/leaderboard-feature.png) |
 | As a returning site user, I would like to improve my memory, so that I can remember more things. | ![screenshot](documentation/testing/quote-card-feature.jpg) |
 | As a returning site user, I would like to have fun, so that I can enjoy myself and unwind from a busy day. | ![screenshot](documentation/testing/quote-card-feature.jpg) |
-
-
 | As a site administrator, I should be able to understand why something has been written, so that I can navigate the code easily. | ![screenshot](documentation/testing/validator.jpg) |
 
 
@@ -195,7 +193,7 @@ While testing I found a couple of error commands that I have explained below wit
    ![screenshot](documentation/testing/testing-images/error-fix.png)
 
 
-- JS `'let'` or `'const'` or `'arrow` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`)
+- JS `'let'` or `'const'` or `'arrow` or `'arrow function syntax (=>)'` is available in ES6.
 
 
    ![screenshot](documentation/testing/testing-images/error1.png)
