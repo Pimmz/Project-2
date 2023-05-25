@@ -33,10 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
         stopTimer();
         setTimeout(function () {
             alert('GAME OVER, CONGRATULATIONS! Can you complete it quicker?');
-            const scoreId = Math.floor(Math.random() * 1000)
+            const scoreId = Math.floor(Math.random() * 1000);
             localStorage.setItem(`score_${scoreId}`, seconds);
-            document.getElementById('rank').innerText = "Rank ";
-            document.getElementById('score').innerText = "Score ";
+            document.getElementById('rank').innerText = "rank";
+            document.getElementById('score').innerText = "score";
             loadScores();
             clickCount = 0;
         }, 1000);
