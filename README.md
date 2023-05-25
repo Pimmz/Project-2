@@ -305,7 +305,10 @@ Due to the simple differences between the local version you've developed, and th
 | [Javascript set interval](https://www.w3schools.com/jsref/met_win_setinterval.asp) |Timer set interval|Used to assist with the timer functionality.
 | [Javascript set timeout](https://www.w3schools.com/jsref/met_win_settimeout.asp) |Timer set timeout |Used to assist with the timer functionality.
 | [Javascript session storage](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp) |Leaderboard session storage|Used to assist with the leaderboard functionality.
-| [Javascript local storage](https://www.w3schools.com/jsref/prop_win_localstorage.asp) |Leaderboard local storage |Used to assist with the leaderboard functionality.
+| [Javascript session storage](https://www.w3schools.com/jsref/prop_win_sessionstorage.asp) |Leaderboard session storage|Used to assist with the leaderboard functionality.
+| [Javascript Random](https://www.w3schools.com/js/js_random.asp) |Leaderboard |Used to assist with the leaderboard functionality.
+| [Javascript Slice](https://www.w3schools.com/jsref/jsref_slice_array.asp) |Leaderboard |Used to assist with the leaderboard functionality.
+| [Javascript Sorting](https://www.w3schools.com/js/js_array_sort.asp) |Leaderboard |Used to assist with the leaderboard functionality.
 | [YouTube local storage](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | Using `localStorage()` in JS for high scores.
 | [Flexbox Froggy](https://flexboxfroggy.com/) | Entire site | Modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | Entire site | Modern responsive layouts |
