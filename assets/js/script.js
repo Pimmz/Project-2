@@ -113,7 +113,6 @@ document.addEventListener('DOMContentLoaded', () => {
         checkGameOver();
     }
 
-
     function disableCards() {
         firstCard.removeEventListener('click', flipCard);
         secondCard.removeEventListener('click', flipCard);
